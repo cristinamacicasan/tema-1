@@ -4,40 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio Homework</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <!--Logo WebStudio-->
-      <a href="./images/logo-webstudio.png">WebStudio</a>
+      <a href="./images/logo-webstudio.png" class="logo-link">
+        <p class="logo">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span>
+        </p>
+      </a>
       <!--Links to other pages,sections from this page-->
       <nav>
         <ul>
-          <li><a href="./studio.html">Studio</a></li>
-          <li><a href="./portofoliu.html">Portofoliu</a></li>
-          <li><a href="./contacts.html">Contacts</a></li>
+          <li class="studio">
+            <a href="./studio.html" class="nav-links">Studio</a>
+          </li>
+          <li class="other-links">
+            <a href="./portofoliu.html" class="nav-links">Portofoliu</a>
+          </li>
+          <li class="other-links">
+            <a href="./contacts.html" class="nav-links">Contacts</a>
+          </li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <a href="mailto:info@devstudio.com" class="contacts1"
+        >info@devstudio.com</a
+      >
+      <a href="tel:+12127724150" class="contacts">+1 212-772-4150</a>
     </header>
 
     <!--Main sections-->
     <main>
-      <section>
+      <section class="first-section">
         <hr />
-        <h1>
+        <h1 class="title">
           EFFECTIVE SOLUTIONS FOR<br />
           YOUR BUSINESS
         </h1>
-        <button type="button">Request our service</button>
+        <button class="button-request" type="button">
+          Request our service
+        </button>
       </section>
 
       <!--About company-->
       <section>
         <ul>
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
+            <h3 class="paragraf-name">ATTENTION TO DETAILS</h3>
             <p>
               We go into all the details and processes<br />
               of your business to develop a<br />
@@ -47,7 +63,7 @@
         </ul>
         <ul>
           <li>
-            <h3>PUNCTUALITY</h3>
+            <h3 class="paragraf-name">PUNCTUALITY</h3>
             <p>
               With us, you can feel safe and secure.<br />
               An important principle of the company:<br />
@@ -57,11 +73,22 @@
         </ul>
         <ul>
           <li>
-            <h3>PLANNING</h3>
+            <h3 class="paragraf-name">PLANNING</h3>
             <p>
               You will be able to observe and<br />
               participate in every phase of solution<br />
               development and implementation.
+            </p>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h3>MODERN TECHNOLOGIES</h3>
+            <p>
+              We use innovative tools to solve<br />
+              assigned tasks. It's time to simplify work<br />
+              processes.
             </p>
           </li>
         </ul>
@@ -161,12 +188,19 @@
     <footer>
       <hr />
       <!--logo WebStudio-->
-      <a href="./images/logo-webstudio.png">WebStudio</a>
+      <a href="./images/logo-webstudio.png" class="logo-link">
+        <p class="logo">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio">Studio</span>
+        </p>
+      </a>
 
       <address>
         695 Park Ave, NY 10065, USA<br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <a href="mailto:info@devstudio.com" class="contacts"
+          >info@devstudio.com</a
+        ><br />
+        <a href="tel:+12127724150" class="contacts">+1 212-772-4150</a>
       </address>
     </footer>
   </body>
